@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: unzip -q buildauto.zip
+      - run: unzip -q buildauto-v2.zip
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
